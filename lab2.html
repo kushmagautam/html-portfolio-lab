@@ -160,23 +160,39 @@
   </p>
 <hr>
   <p>
-   <b> Book Rating: </b><br>
-  <input type="radio" id="r1" name="rating" value="1"><label for="r1">1</label>
-  <input type="radio" id="r2" name="rating" value="2"><label for="r2">2</label>
-  <input type="radio" id="r3" name="rating" value="3"><label for="r3">3</label>
-  <input type="radio" id="r4" name="rating" value="4"><label for="r4">4</label>
-  <input type="radio" id="r5" name="rating" value="5"><label for="r5">5</label>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  
-  </p>
+<div style="display: flex; align-items: center; gap: 15px; flex-wrap: nowrap;">
+  <span style="font-weight: bold;"> Book Rating:</span>
+  <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+    <input type="radio" name="rating" value="1"> 1
+  </label>
+  <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+    <input type="radio" name="rating" value="2"> 2
+  </label>
+  <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+    <input type="radio" name="rating" value="3"> 3
+  </label>
+  <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+    <input type="radio" name="rating" value="4"> 4
+  </label>
+  <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+    <input type="radio" name="rating" value="5"> 5
+  </label>
 <hr>
-  <p>
-   <b>Book Format:</b>
-  <input type="checkbox" id="f1" name="format" value="hardcover"><label for="f1">Hardcover</label>
-  <input type="checkbox" id="f2" name="format" value="paperback"><label for="f2">Paperback</label>
-  <input type="checkbox" id="f3" name="format" value="ebook"><label for="f3">E-Book</label>
-  <input type="checkbox" id="f4" name="format" value="audiobook"><label for="f4">Audiobook</label>
-</p> 
+  </span>
+  <span style="font-weight: bold;">Book Format:</span>
+  <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+    <input type="checkbox" name="format" value="hardcover"> Hardcover
+  </label>
+  <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+    <input type="checkbox" name="format" value="paperback"> Paperback
+  </label>
+  <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+    <input type="checkbox" name="format" value="ebook"> E-Book
+  </label>
+  <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+    <input type="checkbox" name="format" value="audiobook"> Audiobook
+  </label>
+</div>
 <hr>
   <p>
     <button type="submit">Submit</button>
