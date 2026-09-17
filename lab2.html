@@ -145,54 +145,45 @@
   <h2>Book Rating Form</h2>
 
 <form>
-  <table border="1" cellpadding="8" cellspacing="0">
-    <thead>
-      <tr>
-        <th colspan="2">Book Feedback</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><label for="name">Name</label></td>
-        <td><input type="text" id="name" name="name" placeholder="Your name"></td>
-      </tr>
-      <tr>
-        <td><label for="email">Email address</label></td>
-        <td><input type="email" id="email" name="email" placeholder="abc@gmail.com"></td>
-      </tr>
-      <tr>
-        <td><label for="book-name">Book Name</label></td>
-        <td><input type="text" id="book-name" name="book_name" placeholder="Book name"></td>
-      </tr>
-      <tr>
-        <td><label>Book Rating</label></td>
-        <td>
-          <input type="radio" id="r1" name="rating" value="1"><label for="r1"> 1</label>&nbsp;&nbsp;
-          <input type="radio" id="r2" name="rating" value="2"><label for="r2"> 2</label>&nbsp;&nbsp;
-          <input type="radio" id="r3" name="rating" value="3"><label for="r3"> 3</label>&nbsp;&nbsp;
-          <input type="radio" id="r4" name="rating" value="4"><label for="r4"> 4</label>&nbsp;&nbsp;
-          <input type="radio" id="r5" name="rating" value="5"><label for="r5"> 5</label>
-        </td>
-      </tr>
-      <tr>
-        <td valign="top"><label>Book Format</label></td>
-        <td>
-          <input type="checkbox" id="f1" name="format" value="hardcover"> <label for="f1">Hardcover</label><br>
-          <input type="checkbox" id="f2" name="format" value="paperback"> <label for="f2">Paperback</label><br>
-          <input type="checkbox" id="f3" name="format" value="ebook"> <label for="f3">E-Book</label><br>
-          <input type="checkbox" id="f4" name="format" value="audiobook"> <label for="f4">Audiobook</label>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" align="center">
-          <button type="submit">Submit</button>
-          <button type="reset">Reset</button>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</form>
+  <h3>Book Feedback</h3>
 
+  <p>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Your name">
+  </p>
+
+  <p>
+    <label for="email">Email address:</label><br>
+    <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+  </p>
+
+  <p>
+    <label for="book-name">Book Name:</label><br>
+    <input type="text" id="book-name" name="book_name" placeholder="Book name">
+  </p>
+
+  <p>
+    <label>Book Rating:</label><br>
+    <label><input type="radio" name="rating" value="1"> 1</label>&nbsp;&nbsp;&nbsp;
+    <label><input type="radio" name="rating" value="2"> 2</label>&nbsp;&nbsp;&nbsp;
+    <label><input type="radio" name="rating" value="3"> 3</label>&nbsp;&nbsp;&nbsp;
+    <label><input type="radio" name="rating" value="4"> 4</label>&nbsp;&nbsp;&nbsp;
+    <label><input type="radio" name="rating" value="5"> 5</label>
+  </p>
+
+  <p>
+    <label>Book Format:</label><br>
+    <label><input type="checkbox" name="format" value="hardcover"> Hardcover</label>&nbsp;&nbsp;&nbsp;
+    <label><input type="checkbox" name="format" value="paperback"> Paperback</label>&nbsp;&nbsp;&nbsp;
+    <label><input type="checkbox" name="format" value="ebook"> E-Book</label>&nbsp;&nbsp;&nbsp;
+    <label><input type="checkbox" name="format" value="audiobook"> Audiobook</label>
+  </p>
+
+  <p>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </p>
+</form>
   <hr>
 
 </body>
